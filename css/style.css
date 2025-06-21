@@ -267,11 +267,11 @@ img {
   padding: 120px 0 120px 0;
 }
 
-.dignit {
+.portfolio .container .dignit {
   margin-bottom: 72px;
 }
 
-.dignit-list {
+.app-list {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
@@ -324,13 +324,21 @@ img {
   padding: 100px 0;
 }
 
+.foot .container {
+  flex-direction: column;
+}
+
 .foot .second-pt-foot {
   color: #f4f4fd;
 }
 
-.spec {
+.logo-foot {
   display: inline-block;
   margin-bottom: 16px;
+}
+
+.spec {
+  max-width: 264px;
 }
 
 .foot .spec {
