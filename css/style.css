@@ -1,0 +1,163 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  line-height: 1.17;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+  text-transform: uppercase;
+}
+.logo .second-pt {
+  color: #2e2f42;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.nav-list .link {
+  font-weight: 500;
+  color: #2e2f42;
+  text-decoration: none;
+}
+
+.nav-list .link:hover,
+.nav-list .link:focus {
+  color: #404bbf;
+  text-decoration: none;
+}
+
+.address-list {
+  text-decoration: none;
+  font-style: normal;
+}
+
+.address-list .link {
+  color: #434455;
+}
+
+.address-list .link:hover,
+.address-list .link:focus {
+  color: #404bbf;
+}
+
+.buy-service {
+  background-color: #2e2f42;
+}
+
+.buy-service .buy {
+  cursor: pointer;
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: #4d5ae5;
+}
+
+.buy-service .buy:hover {
+  background-color: #404bbf;
+}
+
+.buy-service .buy:focus {
+  background-color: #404bbf;
+}
+
+.advan .exp {
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.team {
+  background-color: #f4f4fd;
+}
+
+.team .our-team {
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.team .company {
+  background-color: #ffffff;
+}
+
+.team .company .name {
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.team .company .descp {
+  font-size: 16px;
+}
+
+.portfolio .dignit {
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.portfolio .allowa {
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.foot {
+  background-color: #2e2f42;
+}
+
+.foot .logo-foot {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.foot .second-pt-foot {
+  color: #f4f4fd;
+}
+
+.foot .spec {
+  color: #f4f4fd;
+}
