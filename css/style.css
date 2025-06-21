@@ -62,6 +62,11 @@ img {
   padding: 0 15px;
 }
 
+.head-side {
+  height: 72px;
+  align-content: center;
+}
+
 .hero {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -112,6 +117,7 @@ img {
 .contact-list {
   display: flex;
   gap: 40px;
+  margin-left: 315px;
 }
 
 .address-list {
@@ -296,7 +302,7 @@ img {
   color: #2e2f42;
 }
 
-.app-list .apps-list {
+.list-prog {
   width: calc((100% - 48px) / 3);
 }
 
