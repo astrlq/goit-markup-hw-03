@@ -206,7 +206,7 @@ img {
   color: #2e2f42;
 }
 
-.team .container {
+.team {
   padding: 120px 0;
 }
 
@@ -218,12 +218,12 @@ img {
   background-color: #f4f4fd;
 }
 
-.container .team-list {
+.team-list {
   display: flex;
   gap: 24px;
 }
 
-.container .team-list .company {
+.company {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
@@ -261,6 +261,58 @@ img {
 
 .team .company .descp {
   font-size: 16px;
+}
+
+.info-mark {
+  padding: 32px 0;
+}
+
+.info-tom {
+  padding: 32px 0;
+}
+
+.info-camila {
+  padding: 32px 0;
+}
+
+.info-daniel {
+  padding: 32px 0;
+}
+
+.info-mark .name {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.info-tom .name {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.info-camila .name {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.info-daniel .name {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.info-mark .descp {
+  text-align: center;
+}
+
+.info-tom .descp {
+  text-align: center;
+}
+
+.info-camila .descp {
+  text-align: center;
+}
+
+.info-daniel .descp {
+  text-align: center;
 }
 
 .portfolio .dignit {
