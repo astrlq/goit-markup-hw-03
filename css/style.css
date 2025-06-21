@@ -263,56 +263,32 @@ img {
   font-size: 16px;
 }
 
-.info-mark {
+.info {
   padding: 32px 0;
 }
 
-.info-tom {
-  padding: 32px 0;
-}
-
-.info-camila {
-  padding: 32px 0;
-}
-
-.info-daniel {
-  padding: 32px 0;
-}
-
-.info-mark .name {
+.info .name {
   text-align: center;
   margin-bottom: 8px;
 }
 
-.info-tom .name {
-  text-align: center;
-  margin-bottom: 8px;
-}
-
-.info-camila .name {
-  text-align: center;
-  margin-bottom: 8px;
-}
-
-.info-daniel .name {
-  text-align: center;
-  margin-bottom: 8px;
-}
-
-.info-mark .descp {
+.info .descp {
   text-align: center;
 }
 
-.info-tom .descp {
-  text-align: center;
+.portfolio {
+  padding: 120px 0 120px 0;
 }
 
-.info-camila .descp {
-  text-align: center;
+.dignit {
+  margin-bottom: 72px;
 }
 
-.info-daniel .descp {
-  text-align: center;
+.dignit-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio .dignit {
@@ -326,6 +302,17 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.apps-list {
+  width: calc((100% - 48px) / 3);
+}
+
+.apps-content {
+  padding: 32px 16px;
+  border: solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 }
 
 .foot {
