@@ -340,6 +340,9 @@ img {
 
 .logo-foot {
   display: inline-block;
+}
+
+.container .logo-foot {
   margin-bottom: 16px;
 }
 
