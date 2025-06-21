@@ -55,13 +55,13 @@ img {
   display: block;
 }
 
-.container .hero {
+.container {
   width: 1158px;
   margin: 0 auto;
-  padding: 0 15px 0 15px;
+  padding: 0 15px;
 }
 
-.main-navigation {
+.main-navigation nav {
   display: flex;
   align-items: center;
 }
@@ -131,7 +131,7 @@ img {
   color: #404bbf;
 }
 
-.contact {
+.contact-list {
   display: flex;
   gap: 40px;
   margin-right: 40px;
