@@ -8,8 +8,7 @@ body {
   background-color: #ffffff;
 }
 
-h1,
-h2,
+h h2,
 h3,
 h4,
 h5,
@@ -56,14 +55,24 @@ img {
 }
 
 .container {
+  display: flex;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
 
-.main-navigation nav {
+.main-navigation {
   display: flex;
   align-items: center;
+}
+
+.main-navigation .logo {
+  margin-right: 76px;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
 }
 
 .hero {
@@ -78,27 +87,9 @@ img {
   letter-spacing: 0.03em;
   color: #4d5ae5;
   text-transform: uppercase;
-  margin-right: 76px;
 }
 .logo .second-pt {
   color: #2e2f42;
-}
-
-.container .navigation {
-  display: flex;
-}
-
-.nav-list {
-  display: flex;
-  gap: 40px;
-}
-
-.nav-list li {
-  margin-right: 40px;
-}
-
-.nav-list li:last-child {
-  margin-right: 0;
 }
 
 .nav-list .link {
@@ -129,16 +120,6 @@ img {
 .address-list .link:hover,
 .address-list .link:focus {
   color: #404bbf;
-}
-
-.contact-list {
-  display: flex;
-  gap: 40px;
-  margin-right: 40px;
-}
-
-.contact:last-child {
-  margin-right: 0;
 }
 
 .buy-service {
