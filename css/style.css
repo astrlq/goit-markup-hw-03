@@ -284,6 +284,10 @@ img {
   row-gap: 48px;
 }
 
+.app-list .list-prog {
+  width: calc((100% - 48px) / 3);
+}
+
 .portfolio .dignit {
   line-height: 1.11;
   text-align: center;
@@ -300,10 +304,6 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-}
-
-.list-prog {
-  width: calc((100% - 48px) / 3);
 }
 
 .apps-content {
