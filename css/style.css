@@ -298,6 +298,11 @@ img {
   text-transform: capitalize;
   color: #2e2f42;
 }
+
+.allowa {
+  margin-bottom: 8px;
+}
+
 .portfolio .allowa {
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -310,9 +315,8 @@ img {
 
 .apps-content {
   padding: 32px 16px;
-  border: solid #e7e9fc;
+  border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 
 .foot {
@@ -329,8 +333,17 @@ img {
   color: #4d5ae5;
 }
 
+.foot {
+  padding: 100px 0;
+}
+
 .foot .second-pt-foot {
   color: #f4f4fd;
+}
+
+.spec {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .foot .spec {
