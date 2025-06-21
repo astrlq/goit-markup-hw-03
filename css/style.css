@@ -206,8 +206,26 @@ img {
   color: #2e2f42;
 }
 
+.team .container {
+  padding: 120px 0;
+}
+
+.container .our-team {
+  margin-bottom: 72px;
+}
+
 .team {
   background-color: #f4f4fd;
+}
+
+.container .team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.container .team-list .company {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team .our-team {
@@ -216,6 +234,19 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+}
+
+.team .info-team {
+  padding: 32px 0;
+}
+
+.team .info-team .name {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.team .info-team .descp {
+  text-align: center;
 }
 
 .team .company {
