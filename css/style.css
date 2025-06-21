@@ -182,13 +182,18 @@ img {
   padding: 120px 0;
 }
 
+.visually-hidden {
+  display: none;
+  visibility: hidden;
+}
+
 .advan {
   display: flex;
   gap: 24px;
 }
 
-.advan-list {
-  flex-basis: calc((100% - 72px) / 4);
+.advan .advan-list {
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .exp {
