@@ -172,10 +172,27 @@ img {
 
 .buy {
   display: block;
-  min-width: 196px;
+  min-width: 169px;
   height: 56px;
   border: none;
   border-radius: 4px;
+}
+
+.plus {
+  padding: 120px 0;
+}
+
+.advan {
+  display: flex;
+  gap: 24px;
+}
+
+.advan-list {
+  flex-basis: calc((100% - 72px) / 4);
+}
+
+.exp {
+  margin-bottom: 8px;
 }
 
 .advan .exp {
