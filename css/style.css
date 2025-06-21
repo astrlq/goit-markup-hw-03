@@ -162,6 +162,22 @@ img {
   background-color: #404bbf;
 }
 
+.buy-service {
+  padding: 188px 0;
+}
+
+.title-hero {
+  max-width: 496px;
+}
+
+.buy {
+  display: block;
+  min-width: 196px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+}
+
 .advan .exp {
   line-height: 1.2;
   letter-spacing: 0.02em;
