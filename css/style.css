@@ -296,7 +296,7 @@ img {
   color: #2e2f42;
 }
 
-.apps-list {
+.app-list .apps-list {
   width: calc((100% - 48px) / 3);
 }
 
