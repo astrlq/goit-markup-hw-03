@@ -338,11 +338,11 @@ img {
   color: #f4f4fd;
 }
 
-.logo-foot {
+.container .logo-foot a {
   display: inline-block;
 }
 
-.container .logo-foot {
+.logo-foot {
   margin-bottom: 16px;
 }
 
