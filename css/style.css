@@ -65,7 +65,7 @@ img {
   padding-bottom: 120px;
 }
 
-.head-side {
+.navigation {
   display: flex;
   align-content: center;
 }
@@ -126,7 +126,7 @@ img {
 .contact-list {
   display: flex;
   gap: 40px;
-  margin-left: 700px;
+  margin-left: 150px;
 }
 
 .address-list {
