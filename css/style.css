@@ -363,18 +363,6 @@ img {
   color: #4d5ae5;
 }
 
-.foot .container {
-  flex-direction: column;
-}
-
-.foot .second-pt-foot {
-  color: #f4f4fd;
-}
-
-.foot .spec {
-  color: #f4f4fd;
-}
-
 .foot .forward {
   display: inline-block;
   margin-bottom: 16px;
