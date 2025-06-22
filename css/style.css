@@ -58,6 +58,7 @@ img {
 .head-side {
   display: flex;
   margin: 0 auto;
+  align-content: center;
 }
 .container {
   width: 1158px;
@@ -65,8 +66,8 @@ img {
   padding: 0 15px;
 }
 
-.head-side {
-  align-content: center;
+.head-side .container {
+  margin: 0 auto;
 }
 
 .hero {
