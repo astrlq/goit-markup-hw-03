@@ -56,6 +56,7 @@ img {
 }
 
 .container {
+  display: flex;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -351,7 +352,7 @@ img {
   background-color: #2e2f42;
 }
 
-.foot .link {
+.foot .forward {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -371,11 +372,6 @@ img {
 
 .foot .second-pt-foot {
   color: #f4f4fd;
-}
-
-.foot .forward {
-  display: inline-block;
-  margin-bottom: 16px;
 }
 
 .spec {
