@@ -363,8 +363,7 @@ img {
   color: #4d5ae5;
 }
 
-.logo-footer {
-  display: inline-block;
+.container .logo-footer {
   margin-bottom: 16px;
 }
 
