@@ -55,18 +55,10 @@ img {
   display: block;
 }
 
-.container {
+.container .head-side {
   margin: 0 auto;
   width: 1158px;
   padding: 0 15px;
-}
-
-.head-side container {
-  margin: 0 auto;
-}
-
-.head-side .container {
-  margin: 0 auto;
 }
 
 .head-side {
