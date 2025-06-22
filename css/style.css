@@ -353,7 +353,7 @@ img {
   padding: 100px 0;
 }
 
-.foot .forward {
+.foot .logo-footer {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -363,12 +363,12 @@ img {
   color: #4d5ae5;
 }
 
-.forward {
+.logo-footer {
   display: inline-block;
   margin-bottom: 16px;
 }
 
-.forward .foot .second-pt-foot {
+.logo-footer .foot .second-pt-foot {
   color: #f4f4fd;
 }
 
