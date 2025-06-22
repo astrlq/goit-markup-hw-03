@@ -63,17 +63,22 @@ img {
 }
 
 .head-side {
-  height: 72px;
   align-content: center;
 }
 
 .hero {
   border-bottom: 1px solid #e7e9fc;
+  height: 72px;
 }
 
 .main-navigation {
   display: flex;
   align-items: center;
+}
+
+.main-navigation,
+.address-list {
+  margin-top: 25px;
 }
 
 .logo {
@@ -138,6 +143,14 @@ img {
   background-color: #2e2f42;
 }
 
+.buy-service .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 .buy-service .buy {
   cursor: pointer;
   color: #ffffff;
@@ -169,6 +182,7 @@ img {
   height: 56px;
   border: none;
   border-radius: 4px;
+  margin-top: 40px;
 }
 
 .plus {
@@ -203,6 +217,10 @@ img {
   padding: 120px 0;
 }
 
+.team .container {
+  flex-direction: column;
+}
+
 .container .our-team {
   margin-bottom: 72px;
 }
@@ -219,6 +237,7 @@ img {
 .company {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .team .our-team {
@@ -273,7 +292,11 @@ img {
   padding: 120px 0 120px 0;
 }
 
-.portfolio .container .dignit {
+.portfolio .container {
+  flex-direction: column;
+}
+
+.dignit {
   margin-bottom: 72px;
 }
 
@@ -284,7 +307,7 @@ img {
   row-gap: 48px;
 }
 
-.app-list .list-prog {
+.list-prog {
   width: calc((100% - 48px) / 3);
 }
 
