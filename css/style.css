@@ -55,7 +55,7 @@ img {
   display: block;
 }
 
-.container .head-side {
+.container {
   margin: 0 auto;
   width: 1158px;
   padding: 0 15px;
@@ -67,7 +67,7 @@ img {
   padding: 0 15px;
 }
 
-.head-side {
+.container {
   display: flex;
   align-content: center;
 }
@@ -123,6 +123,7 @@ img {
 .contact-list {
   display: flex;
   gap: 40px;
+  margin-left: 320px;
 }
 
 .address-list {
@@ -210,11 +211,9 @@ img {
 
 .advan .advan-list {
   flex-basis: calc((100% - 3 * 24px) / 4);
-  margin: 50px;
 }
 
 .exp {
-  margin-bottom: 8px;
 }
 
 .advan .exp {
@@ -349,7 +348,7 @@ img {
   background-color: #2e2f42;
 }
 
-.foot .link {
+.foot .forward {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -371,11 +370,11 @@ img {
   color: #f4f4fd;
 }
 
-.link {
+.forward {
   display: inline-block;
 }
 
-.foot .link {
+.foot .forward {
   margin-bottom: 16px;
 }
 
