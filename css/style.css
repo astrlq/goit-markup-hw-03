@@ -71,13 +71,13 @@ img {
 }
 
 .main-navigation {
-  display: flex;
   align-items: center;
 }
 
 .container .main-navigation,
 .container .address-list {
   margin-top: 25px;
+  display: flex;
 }
 
 .logo {
@@ -119,9 +119,7 @@ img {
 }
 
 .contact-list {
-  display: flex;
   gap: 40px;
-  margin-left: 150px;
 }
 
 .address-list {
