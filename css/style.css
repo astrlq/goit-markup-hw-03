@@ -56,7 +56,6 @@ img {
 }
 
 .container {
-  display: flex;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -67,6 +66,7 @@ img {
 }
 
 .head-side {
+  display: flex;
   align-content: center;
 }
 
@@ -126,7 +126,7 @@ img {
 .contact-list {
   display: flex;
   gap: 40px;
-  margin-left: 315px;
+  margin-left: 700px;
 }
 
 .address-list {
@@ -363,7 +363,7 @@ img {
   color: #4d5ae5;
 }
 
-.logo-footer a {
+.logo-footer {
   display: inline-block;
   margin-bottom: 16px;
 }
