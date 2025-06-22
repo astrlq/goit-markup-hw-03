@@ -56,17 +56,14 @@ img {
 }
 
 .container {
-  max-width: 1440px;
   margin: 0 auto;
+  width: 1158px;
+  padding: 0 15px;
 }
 
 .head-side {
   display: flex;
   align-content: center;
-}
-.container {
-  width: 1158px;
-  padding: 0 15px;
 }
 
 .hero {
