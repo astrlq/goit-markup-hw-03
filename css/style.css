@@ -371,10 +371,11 @@ img {
   color: #f4f4fd;
 }
 
-.foot .forward {
-  margin-bottom: 16px;
-}
-
 .foot .spec {
   color: #f4f4fd;
+}
+
+.foot .forward {
+  display: inline-block;
+  margin-bottom: 16px;
 }
