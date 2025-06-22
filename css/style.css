@@ -350,9 +350,6 @@ img {
 
 .foot {
   background-color: #2e2f42;
-}
-
-.foot {
   padding: 100px 0;
 }
 
@@ -366,7 +363,8 @@ img {
   color: #4d5ae5;
 }
 
-.logo-footer .container {
+.logo {
+  display: inline-block;
   margin-bottom: 16px;
 }
 
