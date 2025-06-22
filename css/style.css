@@ -350,6 +350,7 @@ img {
 
 .foot {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .foot .forward {
@@ -362,15 +363,12 @@ img {
   color: #4d5ae5;
 }
 
-.foot {
-  padding: 100px 0;
+.forward {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
-.foot .container {
-  flex-direction: column;
-}
-
-.foot .second-pt-foot {
+.forward .foot .second-pt-foot {
   color: #f4f4fd;
 }
 
