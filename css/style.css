@@ -55,14 +55,17 @@ img {
   display: block;
 }
 
+.head-side {
+  display: flex;
+}
 .container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
 
-.section {
-  padding-bottom: 120px;
+.head-side {
+  align-content: center;
 }
 
 .hero {
@@ -71,13 +74,8 @@ img {
 }
 
 .main-navigation {
-  align-items: center;
-}
-
-.container .main-navigation,
-.container .address-list {
-  margin-top: 25px;
   display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -119,11 +117,12 @@ img {
 }
 
 .contact-list {
+  display: flex;
   gap: 40px;
+  margin-left: 315px;
 }
 
 .address-list {
-  display: flex;
   text-decoration: none;
   font-style: normal;
 }
@@ -344,10 +343,9 @@ img {
 
 .foot {
   background-color: #2e2f42;
-  padding: 100px 0;
 }
 
-.foot .logo-footer {
+.foot .link {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -357,13 +355,24 @@ img {
   color: #4d5ae5;
 }
 
-.logo-footer {
-  display: inline-block;
-  margin-bottom: 16px;
+.foot {
+  padding: 100px 0;
 }
 
-.logo-footer .foot .second-pt-foot {
+.foot .container {
+  flex-direction: column;
+}
+
+.foot .second-pt-foot {
   color: #f4f4fd;
+}
+
+.link {
+  display: inline-block;
+}
+
+.foot .link {
+  margin-bottom: 16px;
 }
 
 .spec {
