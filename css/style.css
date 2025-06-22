@@ -62,6 +62,10 @@ img {
   padding: 0 15px;
 }
 
+.section {
+  padding-bottom: 120px;
+}
+
 .head-side {
   align-content: center;
 }
@@ -74,6 +78,11 @@ img {
 .main-navigation {
   display: flex;
   align-items: center;
+}
+
+.container .main-navigation,
+.container .address-list {
+  margin-top: 25px;
 }
 
 .logo {
@@ -365,11 +374,8 @@ img {
   color: #f4f4fd;
 }
 
-a.link {
+.foot .forward {
   display: inline-block;
-}
-
-.foot .link {
   margin-bottom: 16px;
 }
 
