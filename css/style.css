@@ -76,11 +76,6 @@ img {
   align-items: center;
 }
 
-.main-navigation,
-.address-list {
-  margin-top: 25px;
-}
-
 .logo {
   margin-right: 76px;
 }
@@ -190,8 +185,17 @@ img {
 }
 
 .visually-hidden {
-  display: none;
-  visibility: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .advan {
@@ -339,7 +343,7 @@ img {
   background-color: #2e2f42;
 }
 
-.foot .logo-foot {
+.foot .link {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -361,11 +365,11 @@ img {
   color: #f4f4fd;
 }
 
-.container .logo-foot a {
+.link {
   display: inline-block;
 }
 
-.logo-foot {
+.foot .link {
   margin-bottom: 16px;
 }
 
